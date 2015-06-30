@@ -1,4 +1,4 @@
-# A helper that makes it easy to quickly initialize jQuery plugins
+# A helper to quickly initialize jQuery plugins
 
 ```
 meteor add yasinuslu:jq-helper
@@ -22,7 +22,7 @@ Template.myTemplate.helpers({
     return {
    	  onRendered: function() {
    	    this.$('.popover).popover();
-   	  } 
+   	  }
     };
   }
 });
